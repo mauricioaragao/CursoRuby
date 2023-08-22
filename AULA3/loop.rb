@@ -3,7 +3,7 @@ count = 1
 
 loop do
     puts count
-    if count ==100
+    if count == 100
         break
     end
     #Incrementa a variável count
