@@ -41,6 +41,10 @@ loop do
         number2 = gets.chomp.to_i
         mult = number1 * number2
         result = "O resultado entre #{number1} e #{number2} é #{mult}"
+    elsif option == 0
+        break
+    else  
+        result = 'Opção inválida'
     end
     #Comando para limpar o console
     system "clear"
